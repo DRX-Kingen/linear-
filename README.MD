@@ -2,7 +2,7 @@
 
 # Giới thiệu
 Linear regression (hồi quy tuyến tính) là một phương pháp thống kê được sử dụng để mô hình hóa mối quan hệ giữa một biến phụ thuộc (y) và một hoặc nhiều biến độc lập (x). Mục tiêu của hồi quy tuyến tính là tìm ra một đường thẳng (hoặc siêu phẳng trong trường hợp nhiều biến độc lập) sao cho sự khác biệt giữa giá trị thực tế và giá trị dự đoán từ mô hình là nhỏ nhất.
-![Linear Regression](Linear-Regression1.png)
+![alt text](Linear-Regression1.png)
 # Quy trình thực hiện
 1. Thu thập dữ liệu
 2. Khám phá và phân tích dữ liệu (Exploratory Data Analysis - EDA)
