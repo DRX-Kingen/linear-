@@ -21,7 +21,7 @@ Linear regression (hồi quy tuyến tính) là một phương pháp thống kê
 - `seaborn` – Thư viện vẽ đồ thị cho phân tích trực quan.
 - `streamlit` – Tạo giao diện.
 Bạn có thể cài đặt các thư viện này thông qua pip:
-```bash
+```
 pip install numpy pandas matplotlib scikit-learn seaborn streamlit
 # Coding
 X = np.array([train['reading score'].values, train['writing score'].values]).T
@@ -35,10 +35,10 @@ w = np.dot(np.linalg.pinv(A), b)
 w_0 = w[0][0]
 w_1 = w[1][0]
 w_2 = w[2][0]
-
+```
 ## Cách sử dụng
- **Sử dụng giao diện**:
-    - Chạy file `linear.py`:
-   ```bash
-   streamlit run linear.py
-   ```
+* Sử dụng giao tiếp
+    * Chạy file:
+    ```linear.py```
+
+        ```streamlit run linear.py```
